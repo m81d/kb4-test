@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://brothersupport-staging.azurewebsites.net/" />
+<title>partnerportal</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://brothersupport-staging.azurewebsites.net/default.aspx?MSG=Logout</td><td></td>
+</tr>
+<tr><td>waitForElementPresent</td><td>id=ctl00_ContentPlaceHolder1_txtEmail<datalist><option>id=ctl00_ContentPlaceHolder1_txtEmail</option><option>name=ctl00$ContentPlaceHolder1$txtEmail</option><option>css=#ctl00_ContentPlaceHolder1_txtEmail</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtEmail']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[2]/div[2]/input</option><option>//div[2]/div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=ctl00_ContentPlaceHolder1_txtEmail<datalist><option>id=ctl00_ContentPlaceHolder1_txtEmail</option><option>name=ctl00$ContentPlaceHolder1$txtEmail</option><option>css=#ctl00_ContentPlaceHolder1_txtEmail</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtEmail']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[2]/div[2]/input</option><option>//div[2]/div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>waitForElementPresent</td><td>id=ctl00_ContentPlaceHolder1_txtEmail<datalist><option>id=ctl00_ContentPlaceHolder1_txtEmail</option><option>name=ctl00$ContentPlaceHolder1$txtEmail</option><option>css=#ctl00_ContentPlaceHolder1_txtEmail</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtEmail']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[2]/div[2]/input</option><option>//div[2]/div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>sendKeys</td><td>id=ctl00_ContentPlaceHolder1_txtEmail<datalist><option>id=ctl00_ContentPlaceHolder1_txtEmail</option><option>name=ctl00$ContentPlaceHolder1$txtEmail</option><option>css=#ctl00_ContentPlaceHolder1_txtEmail</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtEmail']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[2]/div[2]/input</option><option>//div[2]/div[2]/input</option></datalist></td><td>admin@brother.com</td>
+</tr>
+<tr><td>fireEvent</td><td>id=ctl00_ContentPlaceHolder1_txtEmail<datalist><option>id=ctl00_ContentPlaceHolder1_txtEmail</option><option>name=ctl00$ContentPlaceHolder1$txtEmail</option><option>css=#ctl00_ContentPlaceHolder1_txtEmail</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtEmail']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[2]/div[2]/input</option><option>//div[2]/div[2]/input</option></datalist></td><td>change</td>
+</tr>
+<tr><td>waitForElementPresent</td><td>id=ctl00_ContentPlaceHolder1_txtPWD<datalist><option>id=ctl00_ContentPlaceHolder1_txtPWD</option><option>name=ctl00$ContentPlaceHolder1$txtPWD</option><option>css=#ctl00_ContentPlaceHolder1_txtPWD</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtPWD']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[4]/div[2]/input</option><option>//div[4]/div[2]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>sendKeys</td><td>id=ctl00_ContentPlaceHolder1_txtPWD<datalist><option>id=ctl00_ContentPlaceHolder1_txtPWD</option><option>name=ctl00$ContentPlaceHolder1$txtPWD</option><option>css=#ctl00_ContentPlaceHolder1_txtPWD</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtPWD']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[4]/div[2]/input</option><option>//div[4]/div[2]/input</option></datalist></td><td>BroUSTest@22</td>
+</tr>
+<tr><td>fireEvent</td><td>id=ctl00_ContentPlaceHolder1_txtPWD<datalist><option>id=ctl00_ContentPlaceHolder1_txtPWD</option><option>name=ctl00$ContentPlaceHolder1$txtPWD</option><option>css=#ctl00_ContentPlaceHolder1_txtPWD</option><option>//input[@id='ctl00_ContentPlaceHolder1_txtPWD']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[4]/div[2]/input</option><option>//div[4]/div[2]/input</option></datalist></td><td>change</td>
+</tr>
+<tr><td>waitForElementPresent</td><td>id=ctl00_ContentPlaceHolder1_imbLogin<datalist><option>id=ctl00_ContentPlaceHolder1_imbLogin</option><option>name=ctl00$ContentPlaceHolder1$imbLogin</option><option>css=#ctl00_ContentPlaceHolder1_imbLogin</option><option>//input[@id='ctl00_ContentPlaceHolder1_imbLogin']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[6]/input</option><option>//div[6]/input</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=ctl00_ContentPlaceHolder1_imbLogin<datalist><option>id=ctl00_ContentPlaceHolder1_imbLogin</option><option>name=ctl00$ContentPlaceHolder1$imbLogin</option><option>css=#ctl00_ContentPlaceHolder1_imbLogin</option><option>//input[@id='ctl00_ContentPlaceHolder1_imbLogin']</option><option>//div[@id='ctl00_ContentPlaceHolder1_divLogin']/div[2]/div[2]/div/div[6]/input</option><option>//div[6]/input</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
